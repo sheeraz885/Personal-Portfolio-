@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sheeraz Ahmed- Full Stack Developer Portfolio</title>
+    <meta name="description" content="Professional full-stack developer specializing in React, Node.js, and modern web technologies. View my portfolio and get in touch for your next project." />
+    <meta name="keywords" content="full stack developer, react developer, node.js, web development, portfolio, javascript, typescript" />
+    <meta name="author" content="Alex Johnson" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Alex Johnson - Full Stack Developer Portfolio" />
+    <meta property="og:description" content="Professional full-stack developer specializing in React, Node.js, and modern web technologies." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://Sheeraz Ahmwd.dev" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sheeraz Ahmed - Full Stack Developer Portfolio" />
+    <meta name="twitter:description" content="Professional full-stack developer specializing in React, Node.js, and modern web technologies." />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sheeraz Ahmed",
+      "jobTitle": "Full Stack Developer",
+      "description": "Professional full-stack developer specializing in React, Node.js, and modern web technologies",
+      "url": "https://alexjohnson.dev",
+      "sameAs": [
+        "https://github.com/sheeraz885",
+        "www.linkedin.com/in/sheeraz-ahmed-7450a4315",
+      ],
+      "knowsAbout": ["React", "Node.js", "TypeScript", "JavaScript", "Web Development", "Full Stack Development"],
+      "alumniOf": "Indus University",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "TechCorp Solutions"
+      }
+    }
+    </script>
+    
+    <!-- Preload key fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+      /* Prevent FOUC and improve loading experience */
+      body {
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      
+      .font-mono {
+        font-family: 'JetBrains Mono', monospace;
+      }
+      
+      /* Loading spinner */
+      .loading-spinner {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 3px solid rgba(255,255,255,.3);
+        border-radius: 50%;
+        border-top-color: #fff;
+        animation: spin 1s ease-in-out infinite;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+      
+      /* Smooth scrolling for all browsers */
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #c1c1c1;
+        border-radius: 4px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #a8a8a8;
+      }
+      
+      /* Dark mode scrollbar */
+      .dark ::-webkit-scrollbar-track {
+        background: #374151;
+      }
+      
+      .dark ::-webkit-scrollbar-thumb {
+        background: #6B7280;
+      }
+      
+      .dark ::-webkit-scrollbar-thumb:hover {
+        background: #9CA3AF;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
