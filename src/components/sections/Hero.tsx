@@ -258,9 +258,9 @@ const Hero: React.FC = () => {
             className="flex flex-wrap justify-center gap-8 mt-16 mb-16"
           >
             {[
-              { label: 'Projects Completed', value: '20+', icon: '🚀' },
-              { label: 'Happy Clients', value: '30+', icon: '😊' },
-              { label: 'Year Experience', value: '6+', icon: '⭐' },
+              { label: 'Projects Completed', value: '10+', icon: '🚀' },
+              // { label: 'Happy Clients', value: '30+', icon: '😊' },
+              // { label: 'Year Experience', value: '6+', icon: '⭐' },
               { label: 'Technologies', value: '10+', icon: '💻' }
             ].map((stat, index) => (
               <motion.div

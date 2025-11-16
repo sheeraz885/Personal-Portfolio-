@@ -174,8 +174,8 @@ const About: React.FC = () => {
             variants={itemVariants}
             className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed"
           >
-            I'm a passionate full-stack developer with 6+ year of experience building scalable web applications. 
-            I love turning complex problems into simple, beautiful, and intuitive solutions.
+           Passionate full-stack developer with strong skills in creating scalable and user-friendly web applications. 
+           Dedicated to turning complex challenges into simple and effective solutions.
           </motion.p>
         </motion.div>
 
@@ -208,22 +208,27 @@ const About: React.FC = () => {
                     </p>
                   </div>
                 </div>
-                
-                <div className="space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed">
-                  <p>
-                    Started my coding journey in 2018 with a curiosity for how websites work. 
-                    What began as a hobby quickly turned into a passion for creating digital experiences 
-                    that make a difference.
-                  </p>
-                  <p>
-                    I specialize in React, Node.js, and modern web technologies. I'm constantly 
-                    learning and staying up-to-date with the latest industry trends and best practices.
-                  </p>
-                  <p>
-                    When I'm not coding, you can find me contributing to open source projects, 
-                    writing technical blogs, or mentoring aspiring developers in my local community.
-                  </p>
-                </div>
+               
+               <div className="space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed">
+                <p>
+                  I started my coding journey in 2024 during my web development training at Saylani. 
+                 What began with simple HTML and CSS projects quickly grew into a passion for building 
+                 functional and user-friendly web applications.
+                </p>
+
+               <p>
+               I specialize in React, JavaScript, and modern frontend development. I enjoy creating clean, 
+               responsive interfaces and constantly improving my skills by learning new technologies 
+              like JavaScript and Firebase.
+             </p>
+
+             <p>
+               Alongside coding, I also bring experience from the telecom and pharmaceutical industries, 
+               where I developed strong communication, documentation, and problem-solving skills. 
+              These experiences help me collaborate effectively and stay organized in my projects.
+             </p>
+              </div>
+
 
                 {/* Values */}
                 <div className="mt-8 grid grid-cols-2 gap-4">
@@ -256,10 +261,10 @@ const About: React.FC = () => {
             {/* Stats Grid */}
             <div className="grid grid-cols-2 gap-6">
               {[
-                { label: 'Projects Completed', value: '50+', icon: '🚀', color: 'from-blue-500 to-purple-500' },
-                { label: 'Year Experience', value: '6+', icon: '⭐', color: 'from-green-500 to-teal-500' },
-                { label: 'Technologies', value: '20+', icon: '💻', color: 'from-orange-500 to-red-500' },
-                { label: 'Happy Clients', value: '30+', icon: '😊', color: 'from-pink-500 to-purple-500' }
+                { label: 'Projects Completed', value: '10+', icon: '🚀', color: 'from-blue-500 to-purple-500' },
+                
+                { label: 'Technologies', value: '10+', icon: '💻', color: 'from-orange-500 to-red-500' },
+               
               ].map((stat, index) => (
                 <motion.div
                   key={stat.label}

@@ -116,32 +116,32 @@ export const projects: Project[] = [
 export const experience: Experience[] = [
   {
     id: '1',
-    company: 'FreelanceWork',
-    position: 'Full Stack Developer',
-    duration: '2024',
+    company: 'PTCL',
+    position: 'Customer Service Representative',
+    duration: '2022 - 2023',
     description: [
-      'Delivered 15+ custom web applications for various clients',
-      'Specialized in e-commerce and business automation solutions',
-      'Maintained 98% client satisfaction rate',
-      'Worked with diverse technology stacks based on client needs'
+      'Communicated with customers and resolved service-related issues professionally',
+      'Documented customer queries and maintained accurate records',
+      'Improved communication, customer handling, and problem-solving skills'
     ],
-    technologies: ['React', 'MongoDB', 'MySQL'],
-    logo: '💼'
+    technologies: ['Customer Handling', 'Documentation', 'Communication'],
+    logo: '📞'
   },
   {
     id: '2',
-    company: 'TechGropse',
-    position: 'Frontend Developer',
-    duration: '2019 - 2024',
+    company: 'Pharmaceutical Industry',
+    position: 'Documentation Assistant',
+    duration: '2020 - 2021',
     description: [
-      'Built responsive web applications from design to deployment',
-      'Optimized performance resulting in 25% faster load times',
-      'Integrated third-party APIs and payment systems'
+      'Managed and maintained documentation with accuracy and compliance',
+      'Organized files and supported daily operations',
+      'Ensured proper filing, record updates, and workflow coordination'
     ],
-    technologies: ['React', 'JavaScript', 'Styled Components', 'TypeScript'],
-    logo: '🚀'
-  },
+    technologies: ['Documentation', 'Record Management', 'Organization'],
+    logo: '📄'
+  }
 ];
+
 
 export const skills: Skill[] = [
   { name: 'React', level: 95, category: 'frontend', icon: '⚛️' },

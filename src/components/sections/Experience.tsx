@@ -295,11 +295,11 @@ const Experience: React.FC = () => {
                 </p>
               </div>
               
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
                 {[
-                  { label: 'Public Repos', value: '35', icon: '📚', color: 'from-blue-500 to-cyan-500' },
-                  { label: 'Total Stars', value: '200', icon: '⭐', color: 'from-yellow-500 to-orange-500' },
-                  { label: 'Followers', value: '2', icon: '👥', color: 'from-green-500 to-teal-500' },
+                  { label: 'Public Repos', value: '46', icon: '📚', color: 'from-blue-500 to-cyan-500' },
+                  // { label: 'Total Stars', value: '200', icon: '⭐', color: 'from-yellow-500 to-orange-500' },
+                  { label: 'Followers', value: '7', icon: '👥', color: 'from-green-500 to-teal-500' },
                   
                 ].map((stat, index) => (
                   <motion.div
